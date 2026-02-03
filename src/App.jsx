@@ -524,6 +524,23 @@ function App() {
           </>
         )}
       </Dialog>
+      
+      {/* Footer */}
+      <footer className="site-footer">
+        <div className="footer-inner">
+          <span className="footer-text">
+            Project crafted by <span className="footer-name">Anurag</span>
+          </span>
+          <a
+            href="https://github.com/neecoteen24"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            github.com/neecoteen24
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

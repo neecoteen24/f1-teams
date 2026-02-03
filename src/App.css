@@ -780,3 +780,58 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+/* Footer */
+.site-footer {
+  width: 100%;
+  padding: 20px 32px 28px;
+  background: #050505;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: 'F1 Regular', 'Formula1', system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  opacity: 0.85;
+}
+
+.footer-name {
+  font-family: 'F1 Bold', 'Formula1', sans-serif;
+  color: #f5f5f5;
+}
+
+.footer-link {
+  color: rgba(220, 0, 0, 0.9);
+  text-decoration: none;
+  font-family: 'F1 Bold', 'Formula1', sans-serif;
+  letter-spacing: 1.6px;
+  border-bottom: 1px solid rgba(220, 0, 0, 0.4);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
